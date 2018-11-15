@@ -1,3 +1,17 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ModuleA.cs](./CS/NavBarAndPrism.ModuleA/ModuleA.cs) (VB: [ModuleAView.xaml.vb](./VB/NavBarAndPrism.ModuleA/ModuleAView.xaml.vb))
+* [ModuleAView.xaml](./CS/NavBarAndPrism.ModuleA/ModuleAView.xaml) (VB: [ModuleAView.xaml.vb](./VB/NavBarAndPrism.ModuleA/ModuleAView.xaml.vb))
+* [ModuleAView.xaml.cs](./CS/NavBarAndPrism.ModuleA/ModuleAView.xaml.cs) (VB: [ModuleAView.xaml.vb](./VB/NavBarAndPrism.ModuleA/ModuleAView.xaml.vb))
+* [ModuleB.cs](./CS/NavBarAndPrism.ModuleB/ModuleB.cs) (VB: [ModuleBView.xaml](./VB/NavBarAndPrism.ModuleB/ModuleBView.xaml))
+* [ModuleBView.xaml](./CS/NavBarAndPrism.ModuleB/ModuleBView.xaml) (VB: [ModuleBView.xaml](./VB/NavBarAndPrism.ModuleB/ModuleBView.xaml))
+* [ModuleBView.xaml.cs](./CS/NavBarAndPrism.ModuleB/ModuleBView.xaml.cs) (VB: [ModuleBView.xaml](./VB/NavBarAndPrism.ModuleB/ModuleBView.xaml))
+* [Bootstrapper.WPF.cs](./CS/NavBarAndPrism/Bootstrapper.WPF.cs) (VB: [Bootstrapper.WPF.vb](./VB/NavBarAndPrism/Bootstrapper.WPF.vb))
+* [NavBarControlAdapter.cs](./CS/NavBarAndPrism/NavBarControlAdapter.cs) (VB: [NavBarControlAdapter.vb](./VB/NavBarAndPrism/NavBarControlAdapter.vb))
+* [Shell.xaml](./CS/NavBarAndPrism/Shell.xaml) (VB: [Shell.xaml](./VB/NavBarAndPrism/Shell.xaml))
+* [Shell.xaml.cs](./CS/NavBarAndPrism/Shell.xaml.cs) (VB: [Shell.xaml](./VB/NavBarAndPrism/Shell.xaml))
+<!-- default file list end -->
 # How to use NavBarControl with Prism
 
 
