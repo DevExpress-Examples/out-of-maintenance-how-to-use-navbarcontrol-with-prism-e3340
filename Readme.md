@@ -32,8 +32,8 @@ protected override RegionAdapterMappings ConfigureRegionAdapterMappings() {
 ```
 ```vb
 Protected Overrides Function ConfigureRegionAdapterMappings() As RegionAdapterMappings
-	Dim mappings As RegionAdapterMappings = MyBase.ConfigureRegionAdapterMappings()
-	Dim factory = Container.GetExportedValue(Of IRegionBehaviorFactory)()
+    Dim mappings As RegionAdapterMappings = MyBase.ConfigureRegionAdapterMappings()
+    Dim factory = Container.GetExportedValue(Of IRegionBehaviorFactory)()
     mappings.RegisterMapping(GetType(NavBarControl), AdapterFactory.Make(Of RegionAdapterBase(Of NavBarControl))(factory))
     mappings.RegisterMapping(GetType(NavBarGroup), AdapterFactory.Make(Of RegionAdapterBase(Of NavBarGroup))(factory))
     Return mappings
